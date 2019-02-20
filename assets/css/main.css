@@ -21,6 +21,16 @@ html {
   
 }
 
+.linkedin{
+  position: absolute;
+    margin-top: -10px;
+    /* margin-right: 50px; */
+    margin-left: 310px;
+}
+.linkedinimg{
+  width: 20px;
+}
+
 .main-timeline {
   font-family: tahoma;
   padding: 20px 0;
