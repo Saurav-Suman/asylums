@@ -2,6 +2,25 @@
 html {
   overflow-x: hidden;
 }
+.owl-nav{
+  text-align: center;
+}
+.iconnext{
+  display: block;
+    font-size: 22px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+   color: red;
+    
+    border-radius: 30px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+}
 
 @-webkit-keyframes scroll {
   0% {

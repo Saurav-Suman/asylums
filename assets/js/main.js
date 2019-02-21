@@ -59,7 +59,7 @@
     var owl = $("#testimonials");
       owl.owlCarousel({
         loop: true,
-        nav: false,
+        nav: true,
         dots: true,
         center: true,
         margin: 15,
@@ -87,6 +87,74 @@
         }
       });  
       
+
+      var owlone = $(".partner_one");
+      owlone.owlCarousel({
+        loop: true,
+        nav: true,
+        navText: [
+            "<div class='iconnext'><i class='lni-arrow-left-circle'></i></div>",
+            "<div class='iconnext' style='margin-left:10px'><i class='lni-arrow-right-circle'></i></div>"
+          ],
+        dots: false,
+        center: true,
+        margin: 15,
+        slideSpeed: 1000,
+        stopOnHover: true,
+        autoPlay: true,
+        responsiveClass: true,
+        responsiveRefreshRate: true,
+        responsive : {
+            0 : {
+                items: 1
+            },
+            768 : {
+                items: 2
+            },
+            960 : {
+                items: 3
+            },
+            1200 : {
+                items: 3
+            },
+            1920 : {
+                items: 3
+            }
+        }
+      });  
+
+
+      var owltwo = $(".partner_two");
+      owltwo.owlCarousel({
+        loop: true,
+        dots: false,
+        center: true,
+        margin: 15,
+        slideSpeed: 1000,
+        stopOnHover: true,
+        autoPlay: true,
+        responsiveClass: true,
+        responsiveRefreshRate: true,
+        nav: true,
+       
+        responsive : {
+            0 : {
+                items: 1
+            },
+            768 : {
+                items: 2
+            },
+            960 : {
+                items: 3
+            },
+            1200 : {
+                items: 3
+            },
+            1920 : {
+                items: 3
+            }
+        }
+      });  
 
 
     /* Back Top Link active
