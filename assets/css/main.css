@@ -6,7 +6,18 @@ html {
   text-align: center;
 }
 
+.registration{
+  
+  border-radius: 0;
+  box-shadow: 0 2px 18px 0 rgba(198,198,198,.3);
+  transition: all .3s ease-in-out 0s;
+  -moz-transition: all .3s ease-in-out 0s;
+  -webkit-transition: all .3s ease-in-out 0s;
+  -o-transition: all .3s ease-in-out 0s;
+  background: #fff;
+  padding: 20px;
 
+}
 
 .faq-section {
   background: #fdfdfd;

@@ -17,6 +17,10 @@ router.get('/faq', function (req, res) {
   res.sendFile(path.join(__dirname + '/faq.html'));
 });
 
+router.get('/registration', function (req, res) {
+  res.sendFile(path.join(__dirname + '/registration.html'));
+});
+
 router.get('/sitemap', function (req, res) {
   res.sendFile(path.join(__dirname + '/sitemap.html'));
 });
