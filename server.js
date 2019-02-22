@@ -13,6 +13,10 @@ router.get('/course', function (req, res) {
   res.sendFile(path.join(__dirname + '/course.html'));
 });
 
+router.get('/faq', function (req, res) {
+  res.sendFile(path.join(__dirname + '/faq.html'));
+});
+
 router.get('/sitemap', function (req, res) {
   res.sendFile(path.join(__dirname + '/sitemap.html'));
 });
