@@ -59,7 +59,7 @@
     var owl = $("#testimonials");
       owl.owlCarousel({
         loop: true,
-        nav: true,
+        nav: false,
         dots: true,
         center: true,
         margin: 15,
@@ -136,6 +136,10 @@
         responsiveClass: true,
         responsiveRefreshRate: true,
         nav: true,
+        navText: [
+            "<div class='iconnext'><i class='lni-arrow-left-circle'></i></div>",
+            "<div class='iconnext' style='margin-left:10px'><i class='lni-arrow-right-circle'></i></div>"
+          ],
        
         responsive : {
             0 : {
