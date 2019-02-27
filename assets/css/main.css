@@ -2,17 +2,19 @@
 html {
   overflow-x: hidden;
 }
+
+
 .owl-nav{
   text-align: center;
 }
 .card{
   position: relative;
-  background-color: #e4f1f7;
+  background-color: white;
   text-align: center;
   box-sizing: border-box;
   width: 350px;
   height: 250px;
-  margin: 40px;
+  margin: 15px 95px;
   
 }
 
@@ -560,6 +562,12 @@ margin-bottom: 14px;
     .main-timeline .timeline:nth-child(even):after{ border-radius: 0 88px 88px 0; }
 }
 @media screen and (max-width:767px){
+  .container{
+    text-align: center
+  }
+  .card{
+    margin: 15px 50px
+  }
     .main-timeline .timeline{ margin-top: -19px; }
     .main-timeline .timeline:before {
         border-radius: 50px 0 0 50px;
@@ -589,6 +597,12 @@ margin-bottom: 14px;
     .main-timeline .timeline-year{ font-size: 40px; }
 }
 @media screen and (max-width:479px){
+  .container{
+    text-align: center
+  }
+  .card{
+    margin: 15px 50px
+  }
     .main-timeline .timeline-icon{
         font-size: 50px;
         transform:translateY(0);

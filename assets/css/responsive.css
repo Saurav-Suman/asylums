@@ -118,6 +118,11 @@
     margin-bottom: 0;
     margin-top: 0;
   }
+.navbar-brand {
+  width: 65%;
+  text-align: left;
+}
+
   .navbar-brand img {
     margin: 5px 0;
   }
@@ -127,6 +132,12 @@
   .intro-img {
     margin-top: 20px;
   }
+
+  #hero-area {
+    background-size: contain;
+    background-position: bottom;
+  }
+
   #hero-area .img-thumb {
     display: none;
   }

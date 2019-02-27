@@ -93,8 +93,8 @@
         loop: true,
         nav: true,
         navText: [
-            "<div class='iconnext'><i class='lni-arrow-left-circle'></i></div>",
-            "<div class='iconnext' style='margin-left:10px'><i class='lni-arrow-right-circle'></i></div>"
+            "<div class='iconnext'><i class='lni-chevron-left'></i></div>",
+            "<div class='iconnext' style='margin-left:10px'><i class='lni-chevron-right'></i></div>"
           ],
         dots: false,
         center: true,
@@ -137,8 +137,8 @@
         responsiveRefreshRate: true,
         nav: true,
         navText: [
-            "<div class='iconnext'><i class='lni-arrow-left-circle'></i></div>",
-            "<div class='iconnext' style='margin-left:10px'><i class='lni-arrow-right-circle'></i></div>"
+            "<div class='iconnext'><i class='lni-chevron-left'></i></div>",
+            "<div class='iconnext' style='margin-left:10px'><i class='lni-chevron-right'></i></div>"
           ],
        
         responsive : {
